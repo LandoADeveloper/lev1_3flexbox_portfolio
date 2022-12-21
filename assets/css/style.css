@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto/Roboto-Black.ttf");
+}
+
+header {
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header h1 {
+    color: blueviolet;
+}
+header nav a {
+    margin: 0 1vw;
+    text-decoration: none;
+    color: black;
+}
+header nav a:hover {
+
+    color: blueviolet;
+}
+
+.kontaktButton {
+    padding: 1vh 5vw;
+    background-color: blue;
+    color: white;
+
+    border: thin solid black;
+    border-radius: 25px;
+}
+.kontaktButton:hover {
+    background-color: blueviolet;
+    color: white;
+}
